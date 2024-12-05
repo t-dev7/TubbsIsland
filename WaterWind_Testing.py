@@ -95,7 +95,7 @@ logger.addHandler(stdout)
 # Setting the threshold of logger to DEBUG
 logger.setLevel(logging.INFO)
 
-#!##################### Email Functions #####################################
+#!##################### Email Functions ####################################
 
 def send_email(message, subject):
     global logger
