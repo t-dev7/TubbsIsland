@@ -7,4 +7,4 @@ Grabs NAVD tide level predictions one week in advance. The program sends an emai
 # Purpose/Mission
 A needed trigger to alert engineers to fight flood activities at our place of employment. 
 
-## Program is currently being designed to also track wind data when there are three consecutive days of high tides. The wind portion of the weather station does not provide prospective data so the program has to keep track of what days the tides were high, and when that day comes around the wind portion will start to pull data and track wind speeds in 6 minute intervals (amount of time the station takes to update its data points). 
+### Program is currently being designed to also track wind data when there are three consecutive days of high tides. The wind portion of the weather station does not provide prospective data so the program has to keep track of what days the tides were high, and when that day comes around the wind portion will start to pull data and track wind speeds in 6 minute intervals (amount of time the station takes to update its data points). 
