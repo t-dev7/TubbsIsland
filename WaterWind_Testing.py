@@ -413,12 +413,16 @@ def findWater():
             logger.error("findWater() error: %s", str(error), stack_info=True, exc_info=True)
             send_error_email(str(error))
 
-
-    if(daysInARow >= 3):                    # if there are three days in a row of 7ft
+            #################################################################################
+    if(daysInARow >= 3):                   
         try:
             logger.info("High water levels were found: %s", getParsedDay_List(v))
 
             send_water_email(waterList)                            # send an email out (place holder)
+
+            # for i in range(0, 3, 240): #TODO: When Deployed Use This
+            #     wAppend(v[i]['t]'])    #TODO: WHen Deployed Use This
+           
 
             #reset variables for the next getRequest
             waterList = "Date             Time        Lvl\n-----------------------------------------\n"
